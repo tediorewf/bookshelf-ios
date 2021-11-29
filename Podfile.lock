@@ -1,0 +1,117 @@
+PODS:
+  - Alamofire (5.4.4)
+  - CleanMapper (0.0.1)
+  - CleanUseCase (0.1.0):
+    - RxSwift (~> 5)
+  - Differentiator (4.0.1)
+  - ReachabilitySwift (5.0.0)
+  - Realm (10.20.0):
+    - Realm/Headers (= 10.20.0)
+  - Realm/Headers (10.20.0)
+  - RealmSwift (10.20.0):
+    - Realm (= 10.20.0)
+  - RxAlamofireWrapper (0.0.14):
+    - Alamofire (~> 5.1)
+    - RxSwift (~> 5)
+  - RxBiBinding (0.2.5):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxCocoa (5.1.3):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxDataSources (4.0.1):
+    - Differentiator (~> 4.0)
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxMVVM (1.0.1):
+    - RxCocoa (~> 5)
+    - RxDataSources (~> 4.0)
+    - RxSwift (~> 5)
+  - RxReachability (1.1.0):
+    - ReachabilitySwift (~> 5.0)
+    - RxCocoa (~> 5)
+    - RxSwift (~> 5)
+  - RxRealm (4.0.3):
+    - Realm (~> 10.5)
+    - RealmSwift (~> 10.5)
+    - RxCocoa (~> 5.1)
+    - RxSwift (~> 5.1)
+  - RxRelay (5.1.3):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.3)
+  - RxSwiftExt (5.2.0):
+    - RxSwiftExt/Core (= 5.2.0)
+    - RxSwiftExt/RxCocoa (= 5.2.0)
+  - RxSwiftExt/Core (5.2.0):
+    - RxSwift (~> 5.0)
+  - RxSwiftExt/RxCocoa (5.2.0):
+    - RxCocoa (~> 5.0)
+    - RxSwiftExt/Core
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - CleanMapper
+  - CleanUseCase
+  - RxAlamofireWrapper
+  - RxBiBinding
+  - RxCocoa
+  - RxDataSources
+  - RxMVVM (from `https://github.com/JeremySnor/RxMVVM.git`)
+  - RxReachability
+  - RxRealm
+  - RxSwift
+  - RxSwiftExt
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CleanMapper
+    - CleanUseCase
+    - Differentiator
+    - ReachabilitySwift
+    - Realm
+    - RealmSwift
+    - RxAlamofireWrapper
+    - RxBiBinding
+    - RxCocoa
+    - RxDataSources
+    - RxReachability
+    - RxRealm
+    - RxRelay
+    - RxSwift
+    - RxSwiftExt
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  RxMVVM:
+    :git: https://github.com/JeremySnor/RxMVVM.git
+
+CHECKOUT OPTIONS:
+  RxMVVM:
+    :commit: ea8790fc9b37d68090e847a40ede7e133d622bca
+    :git: https://github.com/JeremySnor/RxMVVM.git
+
+SPEC CHECKSUMS:
+  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  CleanMapper: f2c3fd132fb8c4623cecad1aa5a3a06d3388688e
+  CleanUseCase: fa61e839d9bd776ba97ba03ca9afe0a1ad0f222c
+  Differentiator: 886080237d9f87f322641dedbc5be257061b0602
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  Realm: ae32bdc1da7d19c7617e0400201a77acd4a211b9
+  RealmSwift: c95eec6a712924870b2e36c4c081d63ec07e5414
+  RxAlamofireWrapper: f92f729bfcdf60753932e6686e665acded79a876
+  RxBiBinding: 6cc627d9e0dfa0b2ce8470cd7e539f3cb100f782
+  RxCocoa: e2ed092d5432e4296aa818021d27de4090ac0354
+  RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
+  RxMVVM: 18f06e4e97d8a7546c19c737a5b44c157947abad
+  RxReachability: 3da1c23ba6d93dabc004290cda61dd9e7884422d
+  RxRealm: 80e8dc97f7b664d9b89192ac850daaa33c34d157
+  RxRelay: 5a18c2eb2d68326ebaf0112f80d837ae41b92b97
+  RxSwift: 915abbdfb62214aa89ccd0b194d44fb478019b27
+  RxSwiftExt: 4ca80336f43c28f11a2825cdd2fc61dd6c044697
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: 7bf341f7c06661b2f001ac9d6102f724117178b3
+
+COCOAPODS: 1.11.2
