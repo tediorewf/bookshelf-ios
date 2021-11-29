@@ -8,23 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		2FFBFF1EB9CA675466B439D5 /* Pods_BookShelf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5505EFD0C1262E01DD05578E /* Pods_BookShelf.framework */; };
+		9DD067B3275529EF00156294 /* Authorization.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DD067B2275529EE00156294 /* Authorization.storyboard */; };
+		9DD067B727552A3200156294 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD067B627552A3200156294 /* LoginViewModel.swift */; };
+		9DD067B927552BD400156294 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD067B827552BD400156294 /* LoginViewController.swift */; };
 		9DF6EDAF2744139A009C6381 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6EDAE2744139A009C6381 /* AppDelegate.swift */; };
-		9DF6EDB32744139A009C6381 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6EDB22744139A009C6381 /* ViewController.swift */; };
-		9DF6EDB62744139A009C6381 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DF6EDB42744139A009C6381 /* Main.storyboard */; };
 		9DF6EDB82744139D009C6381 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DF6EDB72744139D009C6381 /* Assets.xcassets */; };
 		9DF6EDBB2744139D009C6381 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DF6EDB92744139D009C6381 /* LaunchScreen.storyboard */; };
+		9DF799272755470B000F2F8D /* AuthorizationNavigationRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF799262755470B000F2F8D /* AuthorizationNavigationRoute.swift */; };
+		9DF7992C27554B41000F2F8D /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF7992B27554B41000F2F8D /* NavigationController.swift */; };
+		9DF7992F27554BB8000F2F8D /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF7992E27554BB8000F2F8D /* SignUpViewModel.swift */; };
+		9DF7993227554E10000F2F8D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF7993127554E10000F2F8D /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		19D6DBD86CB0ECAD2298060C /* Pods-BookShelf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookShelf.debug.xcconfig"; path = "Target Support Files/Pods-BookShelf/Pods-BookShelf.debug.xcconfig"; sourceTree = "<group>"; };
 		5505EFD0C1262E01DD05578E /* Pods_BookShelf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookShelf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DD067B2275529EE00156294 /* Authorization.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Authorization.storyboard; sourceTree = "<group>"; };
+		9DD067B627552A3200156294 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		9DD067B827552BD400156294 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		9DF6EDAB2744139A009C6381 /* BookShelf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookShelf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DF6EDAE2744139A009C6381 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9DF6EDB22744139A009C6381 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9DF6EDB52744139A009C6381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DF6EDB72744139D009C6381 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DF6EDBA2744139D009C6381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DF6EDBC2744139D009C6381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DF799262755470B000F2F8D /* AuthorizationNavigationRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationNavigationRoute.swift; sourceTree = "<group>"; };
+		9DF7992B27554B41000F2F8D /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		9DF7992E27554BB8000F2F8D /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		9DF7993127554E10000F2F8D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		BC084DC5C8319BFEA0C6CBE6 /* Pods-BookShelf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookShelf.release.xcconfig"; path = "Target Support Files/Pods-BookShelf/Pods-BookShelf.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -48,6 +58,55 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9DD067AF2755239100156294 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9DF6EDAE2744139A009C6381 /* AppDelegate.swift */,
+				9DF6EDB72744139D009C6381 /* Assets.xcassets */,
+				9DF6EDB92744139D009C6381 /* LaunchScreen.storyboard */,
+				9DF6EDBC2744139D009C6381 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9DD067B02755245C00156294 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				9DF7992927554B18000F2F8D /* ReusableComponents */,
+				9DD067B1275529AF00156294 /* Authorization */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		9DD067B1275529AF00156294 /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				9DD067B527552A1500156294 /* ViewModels */,
+				9DD067B427552A0C00156294 /* ViewControllers */,
+				9DD067B2275529EE00156294 /* Authorization.storyboard */,
+				9DF799262755470B000F2F8D /* AuthorizationNavigationRoute.swift */,
+			);
+			path = Authorization;
+			sourceTree = "<group>";
+		};
+		9DD067B427552A0C00156294 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9DD067B827552BD400156294 /* LoginViewController.swift */,
+				9DF7993127554E10000F2F8D /* SignUpViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9DD067B527552A1500156294 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9DD067B627552A3200156294 /* LoginViewModel.swift */,
+				9DF7992E27554BB8000F2F8D /* SignUpViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		9DF6EDA22744139A009C6381 = {
 			isa = PBXGroup;
 			children = (
@@ -69,14 +128,26 @@
 		9DF6EDAD2744139A009C6381 /* BookShelf */ = {
 			isa = PBXGroup;
 			children = (
-				9DF6EDAE2744139A009C6381 /* AppDelegate.swift */,
-				9DF6EDB22744139A009C6381 /* ViewController.swift */,
-				9DF6EDB42744139A009C6381 /* Main.storyboard */,
-				9DF6EDB72744139D009C6381 /* Assets.xcassets */,
-				9DF6EDB92744139D009C6381 /* LaunchScreen.storyboard */,
-				9DF6EDBC2744139D009C6381 /* Info.plist */,
+				9DD067B02755245C00156294 /* Presentation */,
+				9DD067AF2755239100156294 /* Resources */,
 			);
 			path = BookShelf;
+			sourceTree = "<group>";
+		};
+		9DF7992927554B18000F2F8D /* ReusableComponents */ = {
+			isa = PBXGroup;
+			children = (
+				9DF7992A27554B27000F2F8D /* ViewControllers */,
+			);
+			path = ReusableComponents;
+			sourceTree = "<group>";
+		};
+		9DF7992A27554B27000F2F8D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9DF7992B27554B41000F2F8D /* NavigationController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		BE50ECEC866741DCFEDB89DE /* Pods */ = {
@@ -147,9 +218,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DD067B3275529EF00156294 /* Authorization.storyboard in Resources */,
 				9DF6EDBB2744139D009C6381 /* LaunchScreen.storyboard in Resources */,
 				9DF6EDB82744139D009C6381 /* Assets.xcassets in Resources */,
-				9DF6EDB62744139A009C6381 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,22 +273,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DF6EDB32744139A009C6381 /* ViewController.swift in Sources */,
+				9DD067B927552BD400156294 /* LoginViewController.swift in Sources */,
+				9DF7993227554E10000F2F8D /* SignUpViewController.swift in Sources */,
+				9DF799272755470B000F2F8D /* AuthorizationNavigationRoute.swift in Sources */,
+				9DF7992C27554B41000F2F8D /* NavigationController.swift in Sources */,
 				9DF6EDAF2744139A009C6381 /* AppDelegate.swift in Sources */,
+				9DF7992F27554BB8000F2F8D /* SignUpViewModel.swift in Sources */,
+				9DD067B727552A3200156294 /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9DF6EDB42744139A009C6381 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9DF6EDB52744139A009C6381 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9DF6EDB92744139D009C6381 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -353,7 +421,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 24X4EL2BCS;
-				INFOPLIST_FILE = BookShelf/Info.plist;
+				INFOPLIST_FILE = BookShelf/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -374,7 +442,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 24X4EL2BCS;
-				INFOPLIST_FILE = BookShelf/Info.plist;
+				INFOPLIST_FILE = BookShelf/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
