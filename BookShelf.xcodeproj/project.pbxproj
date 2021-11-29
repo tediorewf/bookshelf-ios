@@ -3,13 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2FFBFF1EB9CA675466B439D5 /* Pods_BookShelf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5505EFD0C1262E01DD05578E /* Pods_BookShelf.framework */; };
 		9DF6EDAF2744139A009C6381 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6EDAE2744139A009C6381 /* AppDelegate.swift */; };
-		9DF6EDB12744139A009C6381 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6EDB02744139A009C6381 /* SceneDelegate.swift */; };
 		9DF6EDB32744139A009C6381 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6EDB22744139A009C6381 /* ViewController.swift */; };
 		9DF6EDB62744139A009C6381 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DF6EDB42744139A009C6381 /* Main.storyboard */; };
 		9DF6EDB82744139D009C6381 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DF6EDB72744139D009C6381 /* Assets.xcassets */; };
@@ -21,7 +20,6 @@
 		5505EFD0C1262E01DD05578E /* Pods_BookShelf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookShelf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DF6EDAB2744139A009C6381 /* BookShelf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookShelf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DF6EDAE2744139A009C6381 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9DF6EDB02744139A009C6381 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9DF6EDB22744139A009C6381 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9DF6EDB52744139A009C6381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DF6EDB72744139D009C6381 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -72,7 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				9DF6EDAE2744139A009C6381 /* AppDelegate.swift */,
-				9DF6EDB02744139A009C6381 /* SceneDelegate.swift */,
 				9DF6EDB22744139A009C6381 /* ViewController.swift */,
 				9DF6EDB42744139A009C6381 /* Main.storyboard */,
 				9DF6EDB72744139D009C6381 /* Assets.xcassets */,
@@ -88,7 +85,6 @@
 				19D6DBD86CB0ECAD2298060C /* Pods-BookShelf.debug.xcconfig */,
 				BC084DC5C8319BFEA0C6CBE6 /* Pods-BookShelf.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +204,6 @@
 			files = (
 				9DF6EDB32744139A009C6381 /* ViewController.swift in Sources */,
 				9DF6EDAF2744139A009C6381 /* AppDelegate.swift in Sources */,
-				9DF6EDB12744139A009C6381 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +354,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 24X4EL2BCS;
 				INFOPLIST_FILE = BookShelf/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -379,6 +375,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 24X4EL2BCS;
 				INFOPLIST_FILE = BookShelf/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
