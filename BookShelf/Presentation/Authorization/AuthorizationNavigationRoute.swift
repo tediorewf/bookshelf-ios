@@ -10,8 +10,6 @@ import RxMVVM
 
 enum AuthorizationNavigationRoute: NavigationRouteType {
     
-    static let storyboardName = "Authorization"
-    
     case login
     case signUp
     
@@ -19,13 +17,17 @@ enum AuthorizationNavigationRoute: NavigationRouteType {
         switch self {
         case .login:
             return NavigationAction.create(navigationType: .root) {
-                let viewController = self.instantiateController(LoginViewController.self, storyboardName: Self.storyboardName, viewModel: LoginViewModel())
+                let viewController = self.instantiateController(LoginViewController.self,
+                                                                storyboardName: Storyboard.authorization,
+                                                                viewModel: LoginViewModel())
                 let navigationController = NavigationController(rootViewController: viewController)
                 return navigationController
             }
         case .signUp:
             return NavigationAction.create(navigationType: .push) {
-                let viewController = self.instantiateController(SignUpViewController.self, storyboardName: Self.storyboardName, viewModel: SignUpViewModel())
+                let viewController = self.instantiateController(SignUpViewController.self,
+                                                                storyboardName: Storyboard.authorization,
+                                                                viewModel: SignUpViewModel())
                 return viewController
             }
         }

@@ -20,11 +20,19 @@ class LoginViewModel: ViewModel {
     
     override func subscribe() {
         
+        login.bind(onNext: { [weak self] in
+            self?.loginAction()
+        }).disposed(by: disposeBag)
+        
         signUp.bind(onNext: {
             Navigator.navigate(route: AuthorizationNavigationRoute.signUp)
         }).disposed(by: disposeBag)
         
         super.subscribe()
+    }
+    
+    private func loginAction() {
+        Navigator.navigate(route: MainNavigationRoute.tabBar)
     }
     
 }
